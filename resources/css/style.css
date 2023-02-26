@@ -4,3 +4,19 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,700;1,400;1,600&display=swap');
 
+/* ================ CSS Variables ============ */
+
+
+
+/* ================ Base ================== */
+
+
+
+/* ================ Reusabe CSS =============== */
+
+.box1,
+.box2,
+.box3 {
+    background-color: darkcyan;
+}
+
