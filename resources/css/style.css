@@ -4,19 +4,51 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,700;1,400;1,600&display=swap');
 
-/* ================ CSS Variables ============ */
+/* ============= CSS Variables ============ */
+:root {
+    /* ========== Colors =========== */
 
-
-
-/* ================ Base ================== */
-
-
-
-/* ================ Reusabe CSS =============== */
-
-.box1,
-.box2,
-.box3 {
-    background-color: darkcyan;
+    /* ========== Font and Typography ========== */
+    --titillium-font: 'Titillium Web', sans-serif;
+    
+    /* ========== Font Weight ============ */
+    --light: 300;
+    --regular: 400;
+    --semibold: 600;
+    --bold: 700;
 }
+
+/* ============= Basic Setup ============== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--titillium-font);
+}
+
+ul li {
+    list-style: none;
+}
+
+/* ============ Reusable CSS ================ */
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* ============ Header Section ======= */
+header {
+    background: #87509c;
+    height: 85vh;
+}
+
+.logo {
+    height: 32px;
+    width: auto;
+}
+
+
 
